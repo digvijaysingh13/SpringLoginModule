@@ -32,6 +32,9 @@ dependencies {
 
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
+	implementation( "com.google.code.gson:gson:2.8.6")
+
+
 }
 
 tasks.withType<Test> {
